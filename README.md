@@ -1,121 +1,121 @@
-# Reels Pro Platform
+#    Reels Pro App
+## Public
 
-A modern Next.js application for managing and selling video content specifically using ImageKit integration. This project provides a full-featured platform with user authentication, video upload capabilities, and payment processing using Razorpay.
+Welcome to the Reels Pro App repository! This React Native application for the Reels Pro project. Below, you'll find instructions on how to set up the development environment and configure necessary variables 
 
-## Features
+### Features
 
-- 🔐 User Authentication (NextAuth.js)
-- 📹 Video Upload and Management (ImageKit)
-- 💳 Payment Processing (Razorpay)
-- 🎨 Modern UI with Tailwind CSS , DaisyUI and Magic UI.
-- 📱 Fully Responsive Design
-- 🔒 Secure API Routes
-- 📧 Email Notifications (Nodemailer)
-- 🗄️ MongoDB Database Integration
+Reelzzz App is a powerful, High-performance Social Media app built using React Native. It features:
 
-## Tech Stack
+* 📸 Photo and Video Record Upload
+* 🗿 Login with Google / Facebook React Native Node JS Mongoose
+* 📱 Highly optimised Typescript Reel Scroll
+* 🎞️ Streaming Videos / Uploading Videos and Photos (Chunk upload)
+* 🗿 Using High Level Optimisation for react native ( Memoizing , Callbacks)
+* 🧩 [Required Initial Setup Must Watch!!!!](https://www.youtube.com/watch?v=QIZDVvZCuI0) (This initial setup is required for all credentials and setup)
+* 🎨 Hardcore Caching and Memory management
+* 🔍 Fully Typescript
+* 🎞️ GIPHY - gif Implementation
+* ⚡ Mark Pin Comments, Liked By Author, 
+* ❤️ Likes - comments, replies, reels | Follow | Unfollow with Flash Tricks
 
-- **Frontend**: Next.js 15, React 19, TypeScript
-- **Styling**: Tailwind CSS, DaisyUI
-- **Authentication**: NextAuth.js, JWT
-- **Database**: MongoDB with Mongoose
-- **File Storage**: ImageKit
-- **Payment**: Razorpay
-- **Email**: Nodemailer
-- **Form Handling**: React Hook Form
 
-## Prerequisites
+## Installation
 
-- Node.js (Latest LTS version)
-- MongoDB Database
-- ImageKit Account
-- Razorpay Account
-- SMTP Server (for email notifications)
+Before you begin, make sure you have Node.js and npm installed on your system.You have setup configuration  Setup (PREFER CHAPTER 1) 
 
-## Getting Started
+1. Clone this repository to your local machine:
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd imagekit-video-main
+```sh
+   git clone https://github.com/SahilSuman1011/Reels-Pro
 ```
 
-2. Install dependencies:
-```bash
+2. Navigate to the project directory:
+
+```sh
+   cd reels_public
+ ```
+
+3. Change the `GOOGLE CLIENT ID` | `FACEBOOK APP CREDENTIALS` | `GIPHY_API_KEY` | :
+
+You can checkout the first video of this for configuration process of this 
+setup the server also you are required to watch first video for all external config 
+in this repo you just have to replace all credentials.
+
+
+## Running the App
+
+Once you have configured the all files, you can start the server by running:
+
+```sh
+npm install --force
+```
+
+for iOS
+```sh
+cd ios && pod install 
+```
+
+```sh
+npm run android
+npm run ios
+```
+
+Replace BASE_URL to your cloud deploy reels pro server or local IP address
+
+This will install the necessary dependencies and start the server on the specified port.
+
+
+## Server
+This serves as the backend for the Reels Pro project. Below, you'll find instructions on how to set up the development environment and configure necessary variables using the `.env` file.
+
+
+## Installation
+
+Before you begin, make sure you have Node.js and npm installed on your system. You can download and install them from [Node.js official website](https://nodejs.org/).
+
+1. Clone this repository to your local machine:
+
+```sh
+   git clone https://github.com/SahilSuman1011/Reels-Pro
+```
+
+2. Navigate to the project directory:
+
+```sh
+   cd reels_server
+ ```
+
+3. Rename the `env_template` according to your need local or prod file to `.env`:
+
+```sh
+   mv env_template .env
+  ```
+
+## Configuration
+
+Open the `.env` file in your favorite text editor and fill in the required details. If you're unsure about what to fill, you can refer to the following YouTube playlist for guidance:
+
+
+## Running the Server
+
+Once you have configured the `.env` file, you can start the server by running:
+
+```sh
 npm install
+npm start
 ```
 
-3. Configure environment variables:
-   - Copy `.env.example` to `.env`
-   - Fill in the required environment variables
-
-4. Run the development server:
-```bash
-npm run dev
-```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Environment Variables
-
-Create a `.env` file with the following variables:
-
-```env
-# Database
-MONGODB_URI=
-
-# Authentication
-NEXTAUTH_SECRET=
-NEXTAUTH_URL=
-
-# ImageKit
-IMAGEKIT_PUBLIC_KEY=
-IMAGEKIT_PRIVATE_KEY=
-IMAGEKIT_URL_ENDPOINT=
-
-# Razorpay
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
-
-# Email (SMTP)
-SMTP_HOST=
-SMTP_PORT=
-SMTP_USER=
-SMTP_PASS=
-```
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build production application
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run seed` - Seed the database
-- `npm run mailtrap` - Test email configuration
-
-## Project Structure
-
-```
-├── app/                  # Next.js app directory
-│   ├── api/             # API routes
-│   ├── components/      # Reusable components
-│   ├── login/          # Login page
-│   ├── register/       # Registration page
-│   └── upload/         # Video upload page
-├── lib/                # Utility functions
-├── models/             # MongoDB models
-├── public/            # Static assets
-└── types.d.ts         # TypeScript declarations
-```
+This will install the necessary dependencies and start the server on the specified port.
 
 ## Contributing
 
-NO CONTRIBUTING PLEASE!
+If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. We welcome any contributions, whether it's fixing bugs, adding features, or improving documentation.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original license in your distribution.
 
-## Support
+---
 
-For support, watch youtube video
+Happy coding! If you have any questions or need further assistance, feel free to reach out to us.
