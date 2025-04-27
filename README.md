@@ -12,7 +12,6 @@ Reelzzz App is a powerful, High-performance Social Media app built using React N
 * 📱 Highly optimised Typescript Reel Scroll
 * 🎞️ Streaming Videos / Uploading Videos and Photos (Chunk upload)
 * 🗿 Using High Level Optimisation for react native ( Memoizing , Callbacks)
-* 🧩 [Required Initial Setup Must Watch!!!!](https://www.youtube.com/watch?v=QIZDVvZCuI0) (This initial setup is required for all credentials and setup)
 * 🎨 Hardcore Caching and Memory management
 * 🔍 Fully Typescript
 * 🎞️ GIPHY - gif Implementation
