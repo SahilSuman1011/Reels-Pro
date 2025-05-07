@@ -8,13 +8,13 @@ Welcome to the Reels Pro App repository! This React Native application for the R
 Reelzzz App is a powerful, High-performance Social Media app built using React Native. It features:
 
 * 📸 Photo and Video Record Upload
-* 🗿 Login with Google / Facebook React Native Node JS Mongoose
+* 🗿 Login with Google React Native Node JS Mongoose
 * 📱 Highly optimised Typescript Reel Scroll
 * 🎞️ Streaming Videos / Uploading Videos and Photos (Chunk upload)
 * 🗿 Using High Level Optimisation for react native ( Memoizing , Callbacks)
 * 🎨 Hardcore Caching and Memory management
 * 🔍 Fully Typescript
-* 🎞️ GIPHY - gif Implementation
+* 🎞️ AWS S3 Bucket for videos storage
 * ⚡ Mark Pin Comments, Liked By Author, 
 * ❤️ Likes - comments, replies, reels | Follow | Unfollow with Flash Tricks
 
